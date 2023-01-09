@@ -1,0 +1,117 @@
+:root{
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue:hsl(216, 12%, 8%);
+    --medium-grey:hsl(216, 12%, 54%);
+    --light-grey:hsl(217, 12%, 63%);
+    --white:#ffff;
+    --orange:hsl(25, 97%, 53%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--very-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    background-color: var(--dark-blue);
+    width: 95%;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 380px;
+}
+.box-star{
+    background-color:hsl(212, 12%, 21%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
+h1{
+    margin: 1rem 0;
+    color: var(--white);
+    font-size: 2rem;
+}
+p{
+    margin-top: 0;
+    color: var(--white);
+    opacity: 0.5;
+}
+.ranking{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 1rem;
+   
+}
+.option-btn{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color:hsl(212, 12%, 21%);
+    color: var(--white);
+    opacity: 5;
+    border: none;
+    cursor: pointer;
+}
+.smt{
+    color: var(--white);
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+.option-btn:hover{
+    background-color:hsl(0, 0%, 43%) ;
+}
+.option-btn:active{
+    background-color: var(--orange);
+}
+.smt:active{
+    background-color: var(--white);
+    color: var(--orange);
+}
+.smartphone{
+    width: 100px;
+    height: 100px;
+}
+/* javascript style*/
+.container-2{
+    background-color: var(--dark-blue);
+    width: 95%;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    max-height: 380px;
+}
+.result{
+    width: 80%;
+    background-color:hsl(212, 12%, 21%) ;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+.your-ranking{
+    color: var(--orange);
+    margin-bottom: 0;
+}
+.title-rasult{
+    margin: 0;
+}
+.text-result{
+    text-align: center;
+}
